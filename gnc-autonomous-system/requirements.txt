@@ -1,0 +1,30 @@
+# Core scientific computing
+numpy>=1.20.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+
+# Numerical optimization
+cvxpy>=1.2.0
+casadi>=3.5.5
+
+# State estimation and filtering
+filterpy>=1.4.5
+
+# Spacecraft dynamics
+poliastro>=0.16.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# Documentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Utilities
+pyyaml>=6.0
+pandas>=1.3.0
+tqdm>=4.62.0
+
+# Optional: For advanced visualization
+plotly>=5.0.0
