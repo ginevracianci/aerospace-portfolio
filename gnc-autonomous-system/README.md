@@ -1,6 +1,13 @@
 # Autonomous GNC System for Small Body Exploration
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![MBSE](https://img.shields.io/badge/Methodology-MBSE-orange.svg)]()
+[![ECSS](https://img.shields.io/badge/Standards-ECSS-red.svg)]()
+
 A Python-based implementation of an autonomous Guidance, Navigation, and Control (GNC) system designed for small body (asteroid) exploration missions, following Model-Based Systems Engineering (MBSE) principles.
+
+![Mission Overview](docs/images/mission_overview.png)
 
 ## 📋 Project Overview
 
@@ -27,7 +34,7 @@ on SEP Trajectories for Small Satellites
 
 **Implementation**: Chapters 4 (Functional Analysis) & 5 (System Architecture)
 
-[📄 View Thesis Abstract](https://drive.google.com/file/d/17bH8A6UUGI-fUZt2HIKD6GEeQ6ByVAj8/view?usp=sharing)
+[📄 View Thesis Abstract](https://drive.google.com/file/d/163-vJmio-P-rDc4Nkhl1ZB7KGaXkaF6G/view?usp=sharing)
 
 ## 🎯 Key Features
 
@@ -146,6 +153,8 @@ results = gnc.simulate_mission(
 
 ## 📊 Mission Phases
 
+![Mission Phases](docs/images/mission_phases.png)
+
 ### 1. Rendezvous Phase
 - Approach from ~2500 km to 20 km home position
 - Maintain spacecraft within approach cone (1° half-angle)
@@ -165,6 +174,26 @@ results = gnc.simulate_mission(
 - Hazard avoidance during ascent
 - Return to home position
 - Trajectory validation
+
+## 📖 Documentation
+
+- **[Quick Start Guide](QUICKSTART.md)** - Get up and running in 5 minutes
+- **[Technical Documentation](docs/TECHNICAL_DOC.md)** - Detailed system design and implementation
+- **[Visual Guide](docs/VISUAL_GUIDE.md)** - Complete SysML diagrams and architecture visuals
+- **[Contributing Guidelines](CONTRIBUTING.md)** - How to contribute to this project
+
+### System Diagrams
+
+The project includes complete SysML diagrams created with Cameo Systems Modeler:
+
+| Diagram Type | Description | View |
+|--------------|-------------|------|
+| Mission Objectives Tree | Hierarchical decomposition of mission goals | [View](docs/images/objective_tree.png) |
+| Requirements Diagrams | ECSS-compliant requirements with traceability | [View](docs/images/autonomous_requirements.png) |
+| GNC Architecture | Complete system architecture and data flow | [View](docs/images/gnc_architecture.png) |
+| Activity Diagrams | Operational sequences for RDV and TAG | [View](docs/images/rdv_activity.png) |
+
+📊 **[See all diagrams in Visual Guide →](docs/VISUAL_GUIDE.md)**
 
 ## 🔬 Verification & Validation
 
