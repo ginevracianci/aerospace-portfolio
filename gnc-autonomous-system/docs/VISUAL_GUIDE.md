@@ -288,7 +288,18 @@ The diagrams demonstrate:
 - ✅ System architecture definition
 - ✅ Verification planning
 - ✅ Standards compliance
+ ### Research Institution
 
+**ISAE-SUPAERO Space Advanced Concepts Laboratory (SaCLaB)**
+- Research focus: Advanced space systems and exploration
+- Collaboration: ESA, CNES, and European space industry
+- Expertise: Astrodynamics, GNC, mission analysis
+
+### ESA Collaboration
+This work was conducted with input from ESA stakeholders focusing on:
+- Autonomous GNC for small body missions
+- MBSE adoption in space systems
+- Verification and validation methodologies
 ---
 
 **For implementation details, see**: [Technical Documentation](TECHNICAL_DOC.md)  
