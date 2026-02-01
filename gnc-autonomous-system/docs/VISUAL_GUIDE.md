@@ -304,4 +304,4 @@ This work was conducted with input from ESA stakeholders focusing on:
 
 **For implementation details, see**: [Technical Documentation](TECHNICAL_DOC.md)  
 **For code examples, see**: [Quick Start Guide](../QUICKSTART.md)  
-**For full project overview, see**: [Main README](../README.md)
+**For full project overview, see**: [Main README](README.md)
