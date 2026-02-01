@@ -16,22 +16,17 @@ This document presents the complete visual architecture of the autonomous GNC sy
 ## Mission Overview
 
 ### Mission Phases
-![Mission Phases](images/mission_phases.png)
+![Mission Phases](gnc-autonomous-system/docs/images/images/mission_overview.jpg)
 
 The mission consists of three main phases:
 1. **Approach & Rendezvous**: Long-range navigation and approach to 20 km home position
 2. **Touch-And-Go (TAG)**: Descent, sample collection, and ascent
 3. **Earth Return**: Departure trajectory and return to Earth
 
-### Mission Context
-![Mission Overview](images/mission_overview.png)
-
----
-
 ## Mission Objectives Tree
 
 ### Hierarchical Objectives Decomposition
-![Objectives Tree](images/objective_tree.png)
+![Objectives Tree](gnc-autonomous-system/docs/images/images/mission_objective_tree.png)
 
 The mission objectives tree follows MBSE methodology with:
 - **Top Level (OBJ-0)**: Sample Return Mission
@@ -49,7 +44,7 @@ The mission objectives tree follows MBSE methodology with:
 ## Requirements Diagrams
 
 ### Requirements Overview
-![Requirements Overview](images/requirements_overview.png)
+![Requirements Overview](gnc-autonomous-system/docs/images/images/requirements_overview.png)
 
 Requirements are organized following ECSS-E-ST-60-30C standards:
 - Functional Requirements
@@ -59,7 +54,7 @@ Requirements are organized following ECSS-E-ST-60-30C standards:
 - Safety Requirements
 
 ### Autonomous Requirements
-![Autonomous Requirements](images/autonomous_requirements.png)
+![Autonomous Requirements](gnc-autonomous-system/docs/images/images/autonomous_requirements.jpg)
 
 **Key Autonomous Requirements**:
 - **R-AUTO-01**: Autonomous trajectory control with minimal fuel
@@ -70,7 +65,7 @@ Requirements are organized following ECSS-E-ST-60-30C standards:
 **Rationale**: Ground intervention impossible due to communication delay (10+ minutes round trip)
 
 ### TAG Requirements
-![TAG Requirements](images/tag_requirements.png)
+![TAG Requirements](gnc-autonomous-system/docs/images/images/tag_requirements.jpg)
 
 **Touch-And-Go Requirements** (Based on OSIRIS-REx):
 - **R-TAG-01**: Landing accuracy 25 m (98.3% confidence)
@@ -86,7 +81,7 @@ Requirements are organized following ECSS-E-ST-60-30C standards:
 ## System Architecture
 
 ### GNC Functional Architecture
-![GNC Architecture](images/gnc_architecture.png)
+![GNC Architecture](gnc-autonomous-system/docs/images/images/gnc_architecture.jpg)
 
 The GNC system implements a modular architecture with three main subsystems:
 
@@ -117,7 +112,7 @@ Sensors → Navigation → State Estimate
 ```
 
 ### Mission Model
-![Mission Model](images/mission_model.png)
+![Mission Model](gnc-autonomous-system/docs/images/images/mission_model.jpg)
 
 The mission model shows the operational context including:
 - Spacecraft blocks and subsystems
@@ -132,7 +127,7 @@ The mission model shows the operational context including:
 Activity diagrams show the operational flow for each mission phase, created using SysML.
 
 ### Rendezvous Activity Diagram
-![Rendezvous Activity](images/rdv_activity.png)
+![Rendezvous Activity](gnc-autonomous-system/docs/images/images/rdv_activity.jpg)
 
 **Rendezvous Sequence**:
 1. **Orbit Estimation**: Determine relative position/velocity
@@ -149,7 +144,7 @@ Activity diagrams show the operational flow for each mission phase, created usin
 - State estimation refinement
 
 ### TAG Activity Diagram
-![TAG Activity](images/tag_activity.png)
+![TAG Activity](gnc-autonomous-system/docs/images/images/tag_activity.jpg)
 
 **Touch-And-Go Sequence**:
 1. **Descent Initialization**: Depart from home position
@@ -172,7 +167,7 @@ Activity diagrams show the operational flow for each mission phase, created usin
 ## Analysis Context
 
 ### System Context Diagram
-![Analysis Context](images/analysis_context.png)
+![Analysis Context](gnc-autonomous-system/docs/images/images/analysis_context.jpg)
 
 The analysis context defines:
 
