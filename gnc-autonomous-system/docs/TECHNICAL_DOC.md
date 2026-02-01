@@ -180,6 +180,7 @@ Based on Hayabusa2 heritage:
 - Off-nominal scenarios (sensor failures)
 - Emergency abort procedures
 - Multiple TAG attempts
+For detailed HIL testing approach, see [HIL Testing Strategy](HIL_TESTING.md).
 
 ### 5. Safety Architecture
 
