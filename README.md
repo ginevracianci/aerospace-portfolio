@@ -248,10 +248,10 @@ hil.run_test_scenario(scenario='TAG', duration=100.0)
 |----------|-------------|------|
 | Quick Start Guide | Get up and running in 5 minutes | [View](QUICKSTART.md) |
 | Technical Documentation | Detailed system design and implementation | [View](gnc-autonomous-system/docs/TECHNICAL_DOC.md) |
-| Visual Guide | Complete SysML diagrams and architecture visuals | [View](docs/VISUAL_GUIDE.md) |
-| ESA Collaboration | Research context and academic background | [View](docs/ESA_COLLABORATION.md) |
-| HIL Testing Strategy | Complete HIL methodology and test scenarios | [View](docs/HIL_TESTING.md) |
-| Contributing Guidelines | How to contribute to this project | [View](CONTRIBUTING.md) |
+| Visual Guide | Complete SysML diagrams and architecture visuals | [View](gnc-autonomous-system/docs/VISUAL_GUIDE.md) |
+| ESA Collaboration | Research context and academic background | [View](gnc-autonomous-system/docs/ESA_COLLABORATION.md) |
+| HIL Testing Strategy | Complete HIL methodology and test scenarios | [View](gnc-autonomous-system/docs/HIL_TESTING.md) |
+| Contributing Guidelines | How to contribute to this project | [View](gnc-autonomous-system/CONTRIBUTING.md) |
 
 ### System Diagrams
 
@@ -259,13 +259,13 @@ The project includes complete SysML diagrams created with Cameo Systems Modeler:
 
 | Diagram Type | Description | View |
 |--------------|-------------|------|
-| Mission Objectives Tree | Hierarchical decomposition of mission goals | [View](docs/images/objective_tree.png) |
-| Requirements Diagrams | ECSS-compliant requirements with traceability | [View](docs/images/autonomous_requirements.png) |
-| GNC Architecture | Complete system architecture and data flow | [View](docs/images/gnc_architecture.png) |
-| Activity Diagrams | Operational sequences for RDV and TAG | [View](docs/images/rdv_activity.png) |
-| Mission Architecture Context | Complete mission-level system design | [View](docs/MISSION_ARCHITECTURE_CONTEXT.md) |
+| Mission Objectives Tree | Hierarchical decomposition of mission goals | [View](gnc-autonomous-system/docs/images/images/objective_tree.jpg) |
+| Requirements Diagrams | ECSS-compliant requirements with traceability | [View](gnc-autonomous-system/docs/images/autonomous_requirements.png) |
+| GNC Architecture | Complete system architecture and data flow | [View](gnc-autonomous-system/docs/images/gnc_architecture.png) |
+| Activity Diagrams | Operational sequences for RDV and TAG | [View](gnc-autonomous-system/docs/images/rdv_activity.png) |
+| Mission Architecture Context | Complete mission-level system design | [View](gnc-autonomous-system/docs/MISSION_ARCHITECTURE_CONTEXT.md) |
 
-📊 **[See all diagrams in Visual Guide →](docs/VISUAL_GUIDE.md)**
+📊 **[See all diagrams in Visual Guide →](gnc-autonomous-system/docs/VISUAL_GUIDE.md)**
 
 ## 🔬 Verification & Validation
 
@@ -285,7 +285,7 @@ The system follows ECSS-E-ST-10-02C verification approach with four methods:
 | R-GNC-48 | HIL Testing | TAG-HIL-001 | ✅ PASS |
 | R-AUTO-03 | HIL Testing | ABORT-HIL-001 | ✅ PASS |
 
-**[📄 See complete verification strategy →](docs/HIL_TESTING.md)**
+**[📄 See complete verification strategy →](gnc-autonomous-system/docs/HIL_TESTING.md)**
 
 ## 📖 Technical Documentation
 
@@ -349,7 +349,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Ginevra Cianci**
 - LinkedIn: [linkedin.com/in/ginevracianci](https://linkedin.com/in/ginevracianci)
 - GitHub: [github.com/ginevracianci](https://github.com/ginevracianci)
-- Email: ginevra.cianci@polito.it
+- Email: ginevra.cianci@gmail.it
 
 **Project Link**: [https://github.com/ginevracianci/gnc-autonomous-system](https://github.com/ginevracianci/gnc-autonomous-system)
 
