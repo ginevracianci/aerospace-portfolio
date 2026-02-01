@@ -259,10 +259,10 @@ The project includes complete SysML diagrams created with Cameo Systems Modeler:
 
 | Diagram Type | Description | View |
 |--------------|-------------|------|
-| Mission Objectives Tree | Hierarchical decomposition of mission goals | [View](gnc-autonomous-system/docs/images/images/objective_tree.jpg) |
-| Requirements Diagrams | ECSS-compliant requirements with traceability | [View](gnc-autonomous-system/docs/images/autonomous_requirements.png) |
-| GNC Architecture | Complete system architecture and data flow | [View](gnc-autonomous-system/docs/images/gnc_architecture.png) |
-| Activity Diagrams | Operational sequences for RDV and TAG | [View](gnc-autonomous-system/docs/images/rdv_activity.png) |
+| Mission Objectives Tree | Hierarchical decomposition of mission goals | [View](gnc-autonomous-system/docs/images/images/images/objective_tree.jpg) |
+| Requirements Diagrams | ECSS-compliant requirements with traceability | [View](gnc-autonomous-system/docs/images/images/autonomous_requirements.png) |
+| GNC Architecture | Complete system architecture and data flow | [View](gnc-autonomous-system/docs/images/images/gnc_architecture.jpg) |
+| Activity Diagrams | Operational sequences for RDV and TAG | [View](gnc-autonomous-system/docs/images/images/rdv_activity.png) |
 | Mission Architecture Context | Complete mission-level system design | [View](gnc-autonomous-system/docs/MISSION_ARCHITECTURE_CONTEXT.md) |
 
 📊 **[See all diagrams in Visual Guide →](gnc-autonomous-system/docs/VISUAL_GUIDE.md)**
