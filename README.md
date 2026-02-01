@@ -71,6 +71,13 @@ This work was conducted at **ISAE-SUPAERO's Space Advanced Concepts Laboratory (
 - Trajectory optimization and guidance algorithms
 - Closed-loop feedback control with PID schemes
 
+### Hardware-in-the-Loop (HIL) Testing
+- Complete HIL testing methodology (Chapter 6)
+- Test scenario definitions for RDV and TAG phases
+- Verification matrix aligned with ECSS standards
+- Heritage from Hayabusa2 and OSIRIS-REx HIL setups
+- Compatible with ESA GRALS facility approach
+
 ### Technical Capabilities
 - **Navigation**: Multi-sensor fusion (IMU, optical cameras, LIDAR)
 - **Guidance**: Trajectory planning with obstacle avoidance
